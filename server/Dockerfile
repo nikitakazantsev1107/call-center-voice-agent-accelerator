@@ -40,5 +40,5 @@ WORKDIR /app
 
 ENV PYTHONUNBUFFERED=1
 
-EXPOSE 8000
+EXPOSE 443
 ENTRYPOINT ["/app/.venv/bin/python",  "server.py"]
